@@ -1,0 +1,86 @@
+body {
+  padding:10px;
+  background-image: url("img/bg.jpg");
+  background-size: cover;  
+  background-repeat: no-repeat;
+}
+
+h1{
+	font-size: 90px;
+}
+
+h2{
+	font-size: 50px;
+}
+
+h1, h2 {
+	display: inline;
+	
+}
+
+#info{
+	margin: 55px 25px;
+	width: 30%
+}
+
+#relax{
+	color: lightgray;
+}
+
+#explore{
+	text-align: right;
+	color: black;
+}
+
+
+button {
+	margin-top: 5px;
+}
+
+#search{
+	width: 100%;
+}
+
+.input{
+	width: 65%;
+}
+
+.form-group{
+	padding: 20px;
+}
+
+.img {
+  margin-bottom:20px;
+  padding:10px; 
+  text-align:center;
+  box-sizing:border-box;
+}
+
+img {
+  max-height:100%;
+  max-width:250px;
+  cursor:pointer;
+}
+
+img:hover{
+	border: 5px solid lightgray;
+}
+
+.container-fixed {
+  width:90%;
+  margin-left:5%;
+  text-align:center;
+}
+
+.resultphoto{
+	height: 400px;
+	width: 400px;
+	vertical-align: middle;
+	display: table-cell;
+	background-color: lightblue;
+}
+
+#gallery{
+	margin-top: 50px;
+}
+
